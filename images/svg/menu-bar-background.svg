@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="menu-bar-background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 67 67" style="enable-background:new 0 0 67 67;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5398EB;}
+	.st1{fill:#1A1F47;}
+	.st2{fill:#75B7F9;}
+</style>
+<g>
+	<g>
+		<polygon class="st1" points="36,13 18.3,13 2,67 19.4,67 		"/>
+		<polygon class="st2" points="47.6,34 37.4,67 55.3,67 65.3,34 		"/>
+		<polygon class="st0" points="20,67 37.3,67 47.3,34 47.6,34 57.4,2 39.4,2 36,13 36.3,13 		"/>
+		<polygon class="st0" points="20,67 36.3,13 36,13 19.4,67 		"/>
+		<polygon class="st0" points="37.3,67 37.4,67 47.6,34 47.3,34 		"/>
+	</g>
+</g>
+</svg>
