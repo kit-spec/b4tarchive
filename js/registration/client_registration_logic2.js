@@ -63,6 +63,20 @@ define(['lodash', 'registration_model', 'registration_validation'], function(_, 
 
         // Action buttons
         var $submit_button = $(jquery_registration_container_dom_id + ' #emailSubmit');
+
+        // Manual form_submit event push
+        if ($submit_button.length) {
+            $submit_button.on('click', function () {
+                window.dataLayer = window.dataLayer || [];
+                window.dataLayer.push({
+                    event: "form_submit",
+                    formId: registration_container_dom_id,
+                    email: $email_input.val()
+                });
+                console.log("form_submit event pushed to dataLayer");
+            });
+        }
+
         var $forceCreateAccountButton = $(jquery_registration_container_dom_id + ' #createAnotherAccount');
 
         var signupEmail = getQueryString('email');
