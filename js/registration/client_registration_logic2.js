@@ -189,7 +189,7 @@ define(['lodash', 'registration_model', 'registration_validation'], function(_, 
                         }
 
                         // Redirect to success page
-                        var redirUrl = '/registration-successful?' +
+                        var redirUrl = '/thank-you?' +
                             'offer=' + registrationModel.current_pricing_offer +
                             '&plan=' + registrationModel.current_selected_plan +
                             '&email=' + encodeURIComponent($email_input.val());
